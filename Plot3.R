@@ -1,5 +1,6 @@
 ##load in data
-table<- read.table("C:/Users/gridA/Desktop/R course/exploratory analysis/data/project1.txt", header=T,sep=";",stringsAsFactors=F)
+txtfile<-"C:/Users/gridA/Desktop/R course/exploratory analysis/data/project1.txt"
+table<- read.table(txtfile, header=T,sep=";",stringsAsFactors=F,dec=".")
 dim(table)
 
 ##subsest table
